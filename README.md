@@ -45,3 +45,8 @@ the graph is connected. Otherwise, the graph is not connected.
  
  ■ Finding a Hamiltonian path/cycle. A Hamiltonian path in a graph is a path that visits each vertex in the graph exactly once. A Hamiltonian cycle visits each vertex in the
 graph exactly once and returns to the starting vertex. 
+
+DFS implementation is given in the following directory: `DFS implementation` . And the Java api demo run output:
+
+![image](https://user-images.githubusercontent.com/24220136/233265893-e3922aef-ea6d-4a3f-86d4-cd2246f94712.png)
+
