@@ -32,10 +32,16 @@ The `depth-first search` can be used to solve many problems, such as the followi
 
  ■ Detecting whether a graph is connected. Search the graph starting from any vertex. If the number of vertices searched is the same as the number of vertices in the graph,
 the graph is connected. Otherwise, the graph is not connected.
+
  ■ Detecting whether there is a path between two vertices.
+ 
  ■ Finding a path between two vertices.
+ 
  ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
+ 
  ■ Detecting whether there is a cycle in the graph.
+ 
  ■ Finding a cycle in the graph.
+ 
  ■ Finding a Hamiltonian path/cycle. A Hamiltonian path in a graph is a path that visits each vertex in the graph exactly once. A Hamiltonian cycle visits each vertex in the
 graph exactly once and returns to the starting vertex. 
