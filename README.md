@@ -50,3 +50,32 @@ DFS implementation is given in the following directory: `DFS implementation` . A
 
 ![image](https://user-images.githubusercontent.com/24220136/233265893-e3922aef-ea6d-4a3f-86d4-cd2246f94712.png)
 
+*[BFS - Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search)*
+------------------
+
+The breadth-first search of a graph visits the vertices level by level. The first level consists of the starting vertex. Each next level consists of the vertices adjacent to the vertices in the preceding level.
+ 
+The breadth-first traversal of a graph is like the breadth-first traversal of a tree, Tree Traversal. With breadth-first traversal of a tree, the nodes are visited
+level by level. First the root is visited, then all the children of the root, then the grandchildren of the root, and so on. Similarly, the breadth-first search of a graph first visits a vertex, then all its adjacent vertices, then all the vertices adjacent to those vertices, and so on. To ensure that each vertex is visited only once, it skips a vertex if it has already been visited.
+
+Many of the problems solved by the DFS can also be solved using the BFS. Specifically, the `BFS` can be used to solve the following problems:
+ 
+ ■ Detecting whether a graph is connected. A graph is connected if there is a path between any two vertices in the graph.
+ 
+ ■ Detecting whether there is a path between two vertices. 
+ 
+ ■ Finding a shortest path between two vertices. You can prove that the path between the root and any node in the BFS tree is a shortest path between the root and the node. 
+ 
+ ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
+ 
+ ■ Detecting whether there is a cycle in the graph.
+ 
+ ■ Finding a cycle in the graph.
+ 
+ ■ Testing whether a graph is bipartite. (A graph is bipartite if the vertices of the graph can be divided into two disjoint sets such that no edges exist between vertices in the same set).
+
+BFS implementation is given in the following directory: `BFS implementation` . And the Java api demo run output:
+
+![image](https://user-images.githubusercontent.com/24220136/233268852-7b8c5786-65f4-4d2c-8b74-f25bd72ce3fc.png)
+
+
