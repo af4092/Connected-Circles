@@ -1,5 +1,5 @@
 # Connected-Circles
-Connected Circles Problem was designed using JavaFX 
+Connected Circles Problem was designed using JavaFX and DFS algorithm implementation 
 
 The connected circles problem is to determine whether all circles in a two-dimensional plane are connected. This problem can be solved using a depth-first traversal.
 The DFS algorithm has many applications. This program applies the DFS algorithm to solve the connected circles problem. In the connected circles problem, you determine whether all the circles in a two-dimensional plane are connected. If all the circles are connected, they are painted as filled circles, as shown in Figure. Otherwise, they are not filled.
