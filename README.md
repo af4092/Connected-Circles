@@ -26,20 +26,20 @@ circles are connected if they overlap. We apply the DFS in the graph, and if all
 - The search is called depth-first because it searches “deeper” in the graph as much as possible. The search starts from some vertex v. After visiting v, it visits an unvisited neighbor of v. If v has no unvisited neighbor, the search backtracks to the vertex from which it reached v. We assume that the graph is connected and the search starting from any vertex can reach all the vertices. If this is not the case, see Programming Exercise 28.4 for finding connected components in a graph. 
 - The `depth-first search` can be used to solve many problems, such as the following:
 
- ■ Detecting whether a graph is connected. Search the graph starting from any vertex. If the number of vertices searched is the same as the number of vertices in the graph,
+   ■ Detecting whether a graph is connected. Search the graph starting from any vertex. If the number of vertices searched is the same as the number of vertices in the graph,
 the graph is connected. Otherwise, the graph is not connected.
 
- ■ Detecting whether there is a path between two vertices.
+   ■ Detecting whether there is a path between two vertices.
  
- ■ Finding a path between two vertices.
+   ■ Finding a path between two vertices.
  
- ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
+   ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
  
- ■ Detecting whether there is a cycle in the graph.
+   ■ Detecting whether there is a cycle in the graph.
  
- ■ Finding a cycle in the graph.
+   ■ Finding a cycle in the graph.
  
- ■ Finding a Hamiltonian path/cycle. A Hamiltonian path in a graph is a path that visits each vertex in the graph exactly once. A Hamiltonian cycle visits each vertex in the raph exactly once and returns to the starting vertex. 
+   ■ Finding a Hamiltonian path/cycle. A Hamiltonian path in a graph is a path that visits each vertex in the graph exactly once. A Hamiltonian cycle visits each vertex in the raph exactly once and returns to the starting vertex. 
 
 - DFS implementation is given in the following directory: `DFS implementation` . And the Java api demo run output:
 
@@ -53,19 +53,19 @@ the graph is connected. Otherwise, the graph is not connected.
 level by level. First the root is visited, then all the children of the root, then the grandchildren of the root, and so on. Similarly, the breadth-first search of a graph first visits a vertex, then all its adjacent vertices, then all the vertices adjacent to those vertices, and so on. To ensure that each vertex is visited only once, it skips a vertex if it has already been visited.
 - Many of the problems solved by the DFS can also be solved using the BFS. Specifically, the `BFS` can be used to solve the following problems:
  
- ■ Detecting whether a graph is connected. A graph is connected if there is a path between any two vertices in the graph.
+   ■ Detecting whether a graph is connected. A graph is connected if there is a path between any two vertices in the graph.
  
- ■ Detecting whether there is a path between two vertices. 
+   ■ Detecting whether there is a path between two vertices. 
  
- ■ Finding a shortest path between two vertices. You can prove that the path between the root and any node in the BFS tree is a shortest path between the root and the node. 
+   ■ Finding a shortest path between two vertices. You can prove that the path between the root and any node in the BFS tree is a shortest path between the root and the node. 
  
- ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
+   ■ Finding all connected components. A connected component is a maximal connected subgraph in which every pair of vertices are connected by a path.
  
- ■ Detecting whether there is a cycle in the graph.
+   ■ Detecting whether there is a cycle in the graph.
  
- ■ Finding a cycle in the graph.
- 
- ■ Testing whether a graph is bipartite. (A graph is bipartite if the vertices of the graph can be divided into two disjoint sets such that no edges exist between vertices in the same set).
+   ■ Finding a cycle in the graph.
+   
+   ■ Testing whether a graph is bipartite. (A graph is bipartite if the vertices of the graph can be divided into two disjoint sets such that no edges exist between vertices in the same set).
 
 - BFS implementation is given in the following directory: `BFS implementation` . And the Java api demo run output:
 
